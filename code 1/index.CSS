@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    
+}
+           /* header section */  
+
+.header{
+    display:flex;
+    margin:30px;
+   
+}
+.stunning-logo{
+    width: 120px;
+    height:50px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+#tags{
+    margin-top:20px;
+    font-size:12px;
+    margin-left: 250px;
+    
+}
+.menu-tags{
+    text-decoration: none;
+    color:grey;
+    margin:30px;
+    padding: 20px;
+
+}
+.menu-tags:hover{
+    color:black;
+    border-bottom:5px solid #5243c0
+    ;
+    border-radius:2.5px;
+    border-top-left-radius: 2.5px;
+}
+.your-account-button{
+    background-color:#ffd8db;
+    font-family: 'Poppins', sans-serif; 
+    margin-left:300px;
+    border:none;
+    color:#5243c0;
+    font-size:12px;
+    font-weight:500;
+    padding:5px 20px;
+    border-radius:20px;
+
+}
+
+         /* main section */
+
+ #combined-section{
+     /* width:70%; */
+     padding-left:100px;
+     padding-right:100px;
+     /* margin-left:100px; */
+     display:flex;
+ }
+ .down-up-image{
+     width:50px;
+     height:50px;
+ }
+ .text-section {
+     width:45%;
+     font-family: 'Poppins', sans-serif; 
+     display: block;
+ }
+ .text-section h1 {
+     font-size:60px;
+     line-height: 60px;
+     font-weight:900;
+ }
+ .text-section p {
+     font-size:13px;
+     width:100%;
+     color:#888684;
+ }
+ .new-account{
+    display:flex;
+    margin-top:40px;
+}
+ .new-account-button{
+    background-color:#5243c0;
+    font-family: 'Poppins', sans-serif; 
+    border:none;
+    color:white;
+    font-size:12px;
+    padding:15px 30px;
+    border-radius:20px;
+    margin-bottom: 50px;
+ }
+ 
+ 
+ .text-section img{
+     margin-left:20px;   
+}
+
+   /* description-block */
+
+   .description{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+   }
+   .description:hover{
+       background-color:white;
+       box-shadow:0px 0px 4px grey;
+   }
+   .profile-1{
+
+       display:inline-block;
+       width:50%;
+   
+       
+   }
+   .profile-1 img{
+       width:30px;
+       height:30px;
+       margin-top:5px;
+       margin-left:10px;
+       display:inline-block;
+       padding-top:15px;
+
+   }
+   
+   .profile-1 h6{
+       display:inline-block;
+       font-size: 13px;
+       margin-left: 10px;
+       margin-bottom: 15px;
+       margin-top:0px;
+       }
+   
+       .profile-1 p{
+        font-size: 12px;
+      margin-left:10px;
+       display:inline;
+       
+    }
+    .profile-2{
+        margin-left:20px;
+        display:flex;
+        width:50%;
+        margin-right:-40px;
+        
+    }
+    .profile-2 img{
+        width:30px;
+        height:30px;
+        margin-top:5px;
+        margin-left:10px;
+        display:inline-block;
+        padding-top:15px;
+    }
+    .profile-2 p{
+        margin-left: 20px;
+        padding-top:10px;
+    }
+    
+    .button-1 {
+      background-color:#fed7da;
+       border:none;
+       border-radius: 10px;
+       width:40px;
+       height:20px;
+       padding:2px 3px;
+       margin-top: 25px;
+       display:inline-block;
+       margin-left:20px;
+       
+      
+    }
+    
+    .button-2 {
+        background-color:#fd6534;
+         border:none;
+         border-radius: 10px;
+         width:40px;
+         height:20px;
+         padding:2px 3px;
+         margin-top: 25px;
+         display:inline-block;
+         margin-left:20px;
+        
+}
+
+.button-3 {
+    background-color:#9ed095;
+     border:none;
+     border-radius: 10px;
+     width:40px;
+     height:20px;
+     padding:2px 3px;
+     display:flex;
+     margin-left:20px;
+
+}
+.button-4{
+    background-color:#ffe2a0;
+    border:none;
+    border-radius: 10px;
+    width:40px;
+    height:20px;
+    padding:2px 3px;
+    margin-top: 25px;
+    display:flex;
+    margin-left:20px;
+}
+
+       /* main-image */
+  .image-section{
+     width: 100%; 
+  } 
+   
+   .main-image{
+       width:100%;
+    
+    /* margin-left:200px;
+    margin-top:100px; */
+   }
